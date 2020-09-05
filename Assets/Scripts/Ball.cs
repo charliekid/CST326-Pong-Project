@@ -6,16 +6,20 @@ public class Ball : MonoBehaviour
 {
     private Rigidbody rb;
     public float amplify = 1;
+
+  
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-       
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         
     }
 
@@ -34,4 +38,6 @@ public class Ball : MonoBehaviour
         // goes straight down the x axis
         rb.AddForce(new Vector3(1, 0, 0 * amplify));
     }
+
+
  }
