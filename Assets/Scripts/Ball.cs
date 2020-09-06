@@ -5,22 +5,29 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     private Rigidbody rb;
+<<<<<<< HEAD
     public float amplify = 10;
 
   
 
+=======
+    public float amplify = 1;
+>>>>>>> parent of b2c6aa8... Added InputManger to control all items
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+<<<<<<< HEAD
         //AddForce();
 
+=======
+       
+>>>>>>> parent of b2c6aa8... Added InputManger to control all items
     }
 
     // Update is called once per frame
     void Update()
     {
-        
         
     }
     /**
@@ -53,6 +60,7 @@ public class Ball : MonoBehaviour
         // goes straight down the x axis
         rb.AddForce(new Vector3(1, 0, 0 * amplify));
     }
+<<<<<<< HEAD
     /**
     * Returns the color when the object hits something
     * @return color - the color object
@@ -67,3 +75,6 @@ public class Ball : MonoBehaviour
     }
 
 }
+=======
+ }
+>>>>>>> parent of b2c6aa8... Added InputManger to control all items
