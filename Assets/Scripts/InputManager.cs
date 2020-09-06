@@ -33,7 +33,21 @@ public class InputManager : MonoBehaviour
         {
             RightScored();
         }
+    }
+    /**
+     * Does when something hits something
+     */
+    void OnCollisionEnter(Collision other)
+    {
+        Debug.Log("I hit something " + gameObject.name);
+        Debug.Log("I hit a " + other.gameObject.name);
 
+        // if want to the change the color that this is attached other we change
+        // the game object
+        // ball changes color
+        //gameObject.GetComponent<MeshRenderer>().material.color = NewColor();
+        // floor changes color
+        //other.gameObject.GetComponent<MeshRenderer>().material.color = NewColor();
 
     }
     public void LeftScored()

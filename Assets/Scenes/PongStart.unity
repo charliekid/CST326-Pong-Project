@@ -949,9 +949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8479657634f084baebdf7d19ac0fde06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplify: 1
-  leftScore: 0
-  rightScore: 0
+  amplify: 100
 --- !u!54 &1312246550
 Rigidbody:
   m_ObjectHideFlags: 0
