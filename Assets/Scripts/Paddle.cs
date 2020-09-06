@@ -20,7 +20,7 @@ void Start()
         //if (Mathf.Abs(transform.position.z) < 5.5) try to figure out how to block the ends from leaving
         //{
         //transform.Translate(new Vector3(0, 0, Input.GetAxis("Vertical")) * Time.deltaTime * amplify);
-        //transform.Translate(new Vector3(0, 0, Input.GetAxis("Paddle Left")) * Time.deltaTime * amplify);
+        transform.Translate(new Vector3(0, 0, Input.GetAxis("Paddle Left")) * Time.deltaTime * amplify);
 
 
 
